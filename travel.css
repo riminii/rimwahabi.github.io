@@ -1,0 +1,137 @@
+/*Généraux*/
+body{
+
+    margin:0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+h1{
+    /*font-family:poppins (à importer);*/
+}
+
+li{
+    list-style:none ;
+}
+
+/*Utilitaires*/
+.flex{
+    display: flex;
+}
+
+.justify_between{
+    justify-content: space-between;
+}
+
+.wrapper{/*sert à centrer et à mettre de la largeur*/
+    width:1100px;
+    margin:0 auto;
+}
+
+.button_small {
+    line-height:32px;
+    padding: 0 12px;
+    border-radius: 4px;
+    user-select: none;
+    border: none;
+    margin-right: 24px;
+}
+
+.button_light_blue {
+    background-color: blue;
+    color: white;
+}
+
+.em_pink {
+    background-color: pink;
+    color:white;
+    padding: 0 12px;
+    /*on donne une taille pour pouvoir faire le border radius 
+    correctement du coup on mets line-height*/
+    line-height: 30%;
+    border-radius: 15px ;
+}
+.em_blue {
+    background-color:blue;
+    color:white;
+    padding: 0 12px;
+    /*on donne une taille pour pouvoir faire le border radius 
+    correctement du coup on mets line-height*/
+    line-height: 30%;
+    border-radius: 15px ;
+}
+
+/*********** EXERCICE 1 ***********/
+.offers{
+    padding-bottom:800px;
+    background-color:gray;
+    padding:8px;
+}
+
+.offers img {
+    width:240px;
+}
+
+.offers_item {
+    width:30%;
+    background-color:beige;
+    padding:8px;
+    border-radius: 24px;
+}
+
+.offers_item_date {
+    writing-mode: vertical-rl; /*rl pour lecture right left*/
+}
+
+/*une classe bouton général et quand ya des petites variations on fait
+d'autres classes spécifiques comme pour le bouton avec button_small = classe de base et
+on spécifie avec une autre classe qu'on ajoutera button_light_blue*/
+
+
+/************* EXERCICE 2 **********/
+.anycorner_article{
+    padding-left:32px;
+}
+
+.relative{
+    position:relative;
+}
+
+.infobulle{
+    background-color: white;
+    width:120px;
+    padding:12px;
+    position:absolute;
+    top:0;
+}
+
+.bulle1{
+    top:200px;
+    left:420px
+}
+
+.bulle2{
+    top:400px;
+    left:-60px;
+}
+
+.bulle3{
+    top:600px;
+    left:420px;
+}
+
+/************** EXERCICE 3 ************/
+.item{
+    display:inline-block;
+    list-style-type: none;
+    background-color: beige;
+    border-radius: 24px;
+    padding:8px;
+    margin: 10px;
+}
+.item img{
+    width : 240px;
+}
+
